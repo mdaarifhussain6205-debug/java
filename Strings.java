@@ -26,19 +26,34 @@ public class Strings {
     // sb.delete(3,4);
     // System.out.println(sb);
 
-    StringBuilder sb = new StringBuilder("hello");
-    for ( int i =0; i < sb.length()/2;i++){
-      int front = i;
-      int back = sb.length()-1-i;
+    // StringBuilder sb = new StringBuilder("hello");
+    // for ( int i =0; i < sb.length()/2;i++){
+    //   int front = i;
+    //   int back = sb.length()-1-i;
 
-      char frontChar = sb.charAt(front);
-      char backChar = sb.charAt(back);
+    //   char frontChar = sb.charAt(front);
+    //   char backChar = sb.charAt(back);
 
 
-      sb.setCharAt(front, backChar);
-      sb.setCharAt(back, frontChar);
+    //   sb.setCharAt(front, backChar);
+    //   sb.setCharAt(back, frontChar);
+    // }
+    // System.out.println(sb);
+
+    Scanner sc = new Scanner(System.in);
+    int oper = sc.nextInt();
+    int n = 5;
+    int pos = 2 ;
+
+
+    int bitMask = 1<<i;
+    if (oper ==1){
+      int newNumber 
     }
-    System.out.println(sb);
+    // int notBitMask = ~(bitMask);
+
+    // int newNumber = notBitMask & n;
+    // System.out.println(newNumber);
 
 
     }
