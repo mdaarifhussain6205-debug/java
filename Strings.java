@@ -53,12 +53,13 @@ public class Strings {
     }else {
       int newBitMask = ~(bitMask);
       int newNumber = newBitMask & n;
+      System.out.println(newNumber);
     }
     // int notBitMask = ~(bitMask);
 
     // int newNumber = notBitMask & n;
     // System.out.println(newNumber);
 
-
+    sc.close();
     }
 }
