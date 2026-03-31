@@ -7,6 +7,8 @@ public class Recursion1{
         }
         sum +=i;
         calculateSum(i+1, n ,sum);
+        System.out.println(i);
+        System.out.println(sum);
     }
     public static void main (String args[]){
        calculateSum(1,6,0);
